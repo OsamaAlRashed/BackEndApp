@@ -1,0 +1,699 @@
+<?xml version="1.0" standalone="yes"?>
+<DesignPatternProject>
+  <Project>
+    <ProjectName>MyProject</ProjectName>
+    <ProjectAuthor />
+    <Summary />
+  </Project>
+  <Components>
+    <ComponentName>MyComponent</ComponentName>
+    <ComponentAuthor />
+    <Summary />
+  </Components>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Bullet</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Product of the design pattern:BUILDER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>BulletBuilder</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Builder of the design pattern:BUILDER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <Summary>This class constructs and assembles parts of the product by implementing the Builder interface. It also defines and keeps track of the representation it creates and provides an interface for retrieving the product.
+ Class added from the design pattern:BUILDER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Director</ClassName>
+    <Summary>This class constructs an object using the Builder interface
+ Class added from the design pattern:BUILDER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Shooter</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Product of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Zombie</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Product of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Person</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Creator of the design pattern:FACTORY METHOD
+This class was mapped with Creator of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ShooterConcrete</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with ConcreteProduct of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ZombieConcrete</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with ConcreteProduct of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PersonConcrete</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with ConcreteCreator of the design pattern:FACTORY METHOD
+This class was mapped with ConcreteCreator of the design pattern:FACTORY METHOD</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Shooting</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with Strategy of the design pattern:STRATEGY</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LinearShooting</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with ConcreteStrategyA of the design pattern:STRATEGY</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ParallelShooting</ClassName>
+    <Visibility />
+    <Summary>
+This class was mapped with ConcreteStrategyB of the design pattern:STRATEGY</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Context</ClassName>
+    <Summary>This class is configured with a ConcreteStrategy object which maintains a reference to a Strategy object and may define an interface that lets Strategy access its data. 
+ Class added from the design pattern:STRATEGY</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ground</ClassName>
+    <Visibility />
+    <Summary />
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <Summary>Summary of MyClass
+ Class added from the design pattern:OBSERVER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <Summary>This class stores state of interest to ConcreteObserver and sends a notification to its observers when its state changes 
+ Class added from the design pattern:OBSERVER</Summary>
+    <ClassType>concrete</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Observer</ClassName>
+    <Summary>This class defines an updating interface for objects that should be notified of changes in a subject.
+ Class added from the design pattern:OBSERVER</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Classes>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <Summary>This class knows its observers. Any number of Observer objects may observe a subject. This class also provides an interface for attaching and detaching Observer objects. 
+
+ Class added from the design pattern:OBSERVER</Summary>
+    <ClassType>abstract</ClassType>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Classes>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>BulletBuilder</ClassName>
+    <MethodName>BuildPart</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the Builder of the design pattern:BUILDER</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>671445997</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <MethodName>BuildPart</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1810993552</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <MethodName>GetResult</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1656107828</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Director</ClassName>
+    <MethodName>Construct</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>foreach (item in structure)
+  builder.BuildPart();</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>934005142</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PersonConcrete</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the ConcreteCreator of the design pattern:FACTORY METHOD</Summary>
+    <ReturnType>ConcreteProduct</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1062789822</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Person</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the Creator of the design pattern:FACTORY METHOD</Summary>
+    <ReturnType>Product</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1348821532</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Person</ClassName>
+    <MethodName>AnOperation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the Creator of the design pattern:FACTORY METHOD</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2025141731</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PersonConcrete</ClassName>
+    <MethodName>FactoryMethod</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Person of Component:MyComponent]</Summary>
+    <ReturnType>Product</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1062789822</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PersonConcrete</ClassName>
+    <MethodName>AnOperation</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Person of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1100555001</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LinearShooting</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the ConcreteStrategyA of the design pattern:STRATEGY</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>2112277764</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ParallelShooting</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the ConcreteStrategyB of the design pattern:STRATEGY</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>974303199</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Context</ClassName>
+    <MethodName>ContextInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>108774366</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Shooting</ClassName>
+    <MethodName>AlgorithmInterface</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary
+Method added from the Strategy of the design pattern:STRATEGY</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1182652194</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <MethodName>Update</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1705177393</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>GetState</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>833874929</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Observer</ClassName>
+    <MethodName>Update</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1553795419</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Attach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>869257559</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Detach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1755448531</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <MethodName>Notify</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>Summary</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>459402925</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Attach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>1369102700</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Detach</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-118728556</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Methods>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <MethodName>Notify</MethodName>
+    <Visibility>public</Visibility>
+    <Summary>[Inherited from Base Class : Subject of Component:MyComponent]</Summary>
+    <ReturnType>void</ReturnType>
+    <MethodType>concrete</MethodType>
+    <MethodID>-1882969568</MethodID>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Methods>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>observerState</FieldName>
+    <Summary>Summary</Summary>
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Fields>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <FieldType>FieldType</FieldType>
+    <FieldName>subjectState</FieldName>
+    <Summary>Summary</Summary>
+    <Visibility>private</Visibility>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Fields>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary>Summary</Summary>
+    <MethodID>869257559</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary>Summary</Summary>
+    <MethodID>1755448531</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary>Summary</Summary>
+    <MethodID>1369102700</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Parameters>
+    <ParameterType>ParamType</ParameterType>
+    <ParameterName>in observer</ParameterName>
+    <Summary>Summary</Summary>
+    <MethodID>-118728556</MethodID>
+    <ParamOrder>0</ParamOrder>
+    <MetaInfo>&lt;MetaInfo /&gt;</MetaInfo>
+  </Parameters>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>BulletBuilder</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ConcreteBuilder</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Person</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>PersonConcrete</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Shooter</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ShooterConcrete</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Zombie</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ZombieConcrete</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Shooting</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>LinearShooting</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Shooting</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ParallelShooting</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Observer</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ConcreteObserver</DerivedClassName>
+  </Inheritances>
+  <Inheritances>
+    <BaseClassComponent>MyComponent</BaseClassComponent>
+    <BaseClassName>Subject</BaseClassName>
+    <DerivedClassComponent>MyComponent</DerivedClassComponent>
+    <DerivedClassName>ConcreteSubject</DerivedClassName>
+  </Inheritances>
+  <Aggregates>
+    <AggregatorClassComponent>MyComponent</AggregatorClassComponent>
+    <AggregatorClass>Director</AggregatorClass>
+    <AggregateeClassComponent>MyComponent</AggregateeClassComponent>
+    <AggregateeClass>BulletBuilder</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>builder</RelationName>
+  </Aggregates>
+  <Aggregates>
+    <AggregatorClassComponent>MyComponent</AggregatorClassComponent>
+    <AggregatorClass>Context</AggregatorClass>
+    <AggregateeClassComponent>MyComponent</AggregateeClassComponent>
+    <AggregateeClass>Shooting</AggregateeClass>
+    <RelationOrder>Single</RelationOrder>
+    <RelationName>Strategy</RelationName>
+  </Aggregates>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>ConcreteObserver</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>ConcreteSubject</ReferedClassName>
+    <ReferenceName>Subject</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <References>
+    <ReferenceComponent>MyComponent</ReferenceComponent>
+    <ReferenceClass>Subject</ReferenceClass>
+    <ReferedComponentName>MyComponent</ReferedComponentName>
+    <ReferedClassName>Observer</ReferedClassName>
+    <ReferenceName>Observer</ReferenceName>
+    <RelationOrder>Single</RelationOrder>
+  </References>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>ConcreteBuilder</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>Bullet</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>PersonConcrete</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>ShooterConcrete</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <Creates>
+    <CreatorComponentName>MyComponent</CreatorComponentName>
+    <CreatorClassName>PersonConcrete</CreatorClassName>
+    <CreateeComponentName>MyComponent</CreateeComponentName>
+    <CreateeClassName>ZombieConcrete</CreateeClassName>
+    <RelationOrder>Single</RelationOrder>
+  </Creates>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Bullet</ClassName>
+    <XCoOrdinate>340</XCoOrdinate>
+    <YCoOrdinate>272</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>BulletBuilder</ClassName>
+    <XCoOrdinate>369</XCoOrdinate>
+    <YCoOrdinate>94</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteBuilder</ClassName>
+    <XCoOrdinate>298</XCoOrdinate>
+    <YCoOrdinate>179</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Director</ClassName>
+    <XCoOrdinate>393</XCoOrdinate>
+    <YCoOrdinate>11</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Shooter</ClassName>
+    <XCoOrdinate>554</XCoOrdinate>
+    <YCoOrdinate>500</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Zombie</ClassName>
+    <XCoOrdinate>664</XCoOrdinate>
+    <YCoOrdinate>526</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Person</ClassName>
+    <XCoOrdinate>593</XCoOrdinate>
+    <YCoOrdinate>168</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ShooterConcrete</ClassName>
+    <XCoOrdinate>489</XCoOrdinate>
+    <YCoOrdinate>373</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ZombieConcrete</ClassName>
+    <XCoOrdinate>645</XCoOrdinate>
+    <YCoOrdinate>365</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>PersonConcrete</ClassName>
+    <XCoOrdinate>524</XCoOrdinate>
+    <YCoOrdinate>222</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Shooting</ClassName>
+    <XCoOrdinate>66</XCoOrdinate>
+    <YCoOrdinate>235</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>LinearShooting</ClassName>
+    <XCoOrdinate>11</XCoOrdinate>
+    <YCoOrdinate>475</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ParallelShooting</ClassName>
+    <XCoOrdinate>217</XCoOrdinate>
+    <YCoOrdinate>474</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Context</ClassName>
+    <XCoOrdinate>60</XCoOrdinate>
+    <YCoOrdinate>159</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Ground</ClassName>
+    <XCoOrdinate>640</XCoOrdinate>
+    <YCoOrdinate>191</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteObserver</ClassName>
+    <XCoOrdinate>339</XCoOrdinate>
+    <YCoOrdinate>531</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>ConcreteSubject</ClassName>
+    <XCoOrdinate>436</XCoOrdinate>
+    <YCoOrdinate>686</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Observer</ClassName>
+    <XCoOrdinate>210</XCoOrdinate>
+    <YCoOrdinate>585</YCoOrdinate>
+  </UIDetails>
+  <UIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <ClassName>Subject</ClassName>
+    <XCoOrdinate>52</XCoOrdinate>
+    <YCoOrdinate>704</YCoOrdinate>
+  </UIDetails>
+  <ComponentUIDetails>
+    <ComponentName>MyComponent</ComponentName>
+    <Width>800</Width>
+    <Height>800</Height>
+  </ComponentUIDetails>
+</DesignPatternProject>
